@@ -24,3 +24,4 @@ C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windo
 C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Temas.pdb
 C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.CopyComplete
 C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.Properties.Resources.resources
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.View.Cadastro.cadastrar.resources
