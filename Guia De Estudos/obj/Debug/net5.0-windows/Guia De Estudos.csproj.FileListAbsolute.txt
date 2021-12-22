@@ -1,0 +1,26 @@
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.AssemblyReference.cache
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.Form1.resources
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.GenerateResource.cache
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.AssemblyInfoInputs.cache
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.AssemblyInfo.cs
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.CoreCompileInputs.cache
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.exe
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.deps.json
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.runtimeconfig.json
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.runtimeconfig.dev.json
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.dll
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\ref\Guia De Estudos.dll
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.pdb
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.dll
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\ref\Guia De Estudos.dll
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.pdb
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.genruntimeconfig.cache
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Temas.deps.json
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Temas.runtimeconfig.json
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Temas.runtimeconfig.dev.json
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Temas.exe
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Temas.dll
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windows\Temas.pdb
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.CopyComplete
+C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.Properties.Resources.resources
