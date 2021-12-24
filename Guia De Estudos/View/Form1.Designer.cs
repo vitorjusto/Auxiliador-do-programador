@@ -1,4 +1,6 @@
 ﻿
+using Temas;
+
 namespace Guia_De_Estudos
 {
     partial class Form1
@@ -30,33 +32,52 @@ namespace Guia_De_Estudos
         private void InitializeComponent()
         {
             this.MenuPanel = new System.Windows.Forms.Panel();
-            this.panelSubItem1 = new Temas.PanelSubItem();
-            this.label2 = new System.Windows.Forms.Label();
+            this.sideMenuItem1 = new Temas.SideMenuItem();
             this.SidePanelItem = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.MenuPanel.SuspendLayout();
-            this.panelSubItem1.SuspendLayout();
             this.SidePanelItem.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuPanel
             // 
-            this.MenuPanel.Controls.Add(this.panelSubItem1);
+            this.MenuPanel.Controls.Add(this.sideMenuItem1);
             this.MenuPanel.Controls.Add(this.SidePanelItem);
+            this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
+            this.MenuPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(187, 560);
+            this.MenuPanel.Size = new System.Drawing.Size(214, 953);
             this.MenuPanel.TabIndex = 1;
             // 
-            // panelSubItem1
+            // sideMenuItem1
             // 
-            this.panelSubItem1.Controls.Add(this.label2);
-            this.panelSubItem1.Location = new System.Drawing.Point(0, 49);
-            this.panelSubItem1.Name = "panelSubItem1";
-            this.panelSubItem1.Size = new System.Drawing.Size(187, 39);
-            this.panelSubItem1.TabIndex = 2;
-            this.panelSubItem1.Click += new System.EventHandler(this.panelSubItem1_DoubleClick);
-            this.panelSubItem1.DoubleClick += new System.EventHandler(this.panelSubItem1_DoubleClick);
+            this.sideMenuItem1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.sideMenuItem1.Location = new System.Drawing.Point(0, 67);
+            this.sideMenuItem1.Name = "sideMenuItem1";
+            this.sideMenuItem1.Size = new System.Drawing.Size(214, 65);
+            this.sideMenuItem1.TabIndex = 2;
+            // 
+            // SidePanelItem
+            // 
+            this.SidePanelItem.Controls.Add(this.label1);
+            this.SidePanelItem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SidePanelItem.Location = new System.Drawing.Point(0, 0);
+            this.SidePanelItem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.SidePanelItem.Name = "SidePanelItem";
+            this.SidePanelItem.Size = new System.Drawing.Size(214, 67);
+            this.SidePanelItem.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(11, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 37);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Novo";
             // 
             // label2
             // 
@@ -68,37 +89,18 @@ namespace Guia_De_Estudos
             this.label2.TabIndex = 0;
             this.label2.Text = "Projeto";
             // 
-            // SidePanelItem
-            // 
-            this.SidePanelItem.Controls.Add(this.label1);
-            this.SidePanelItem.Location = new System.Drawing.Point(0, 0);
-            this.SidePanelItem.Name = "SidePanelItem";
-            this.SidePanelItem.Size = new System.Drawing.Size(187, 50);
-            this.SidePanelItem.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(10, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Novo";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.ClientSize = new System.Drawing.Size(1482, 953);
             this.Controls.Add(this.MenuPanel);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Inicial";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MenuPanel.ResumeLayout(false);
-            this.panelSubItem1.ResumeLayout(false);
-            this.panelSubItem1.PerformLayout();
             this.SidePanelItem.ResumeLayout(false);
             this.SidePanelItem.PerformLayout();
             this.ResumeLayout(false);
@@ -111,7 +113,7 @@ namespace Guia_De_Estudos
         private System.Windows.Forms.Panel SidePanelItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Temas.PanelSubItem panelSubItem1;
+        private SideMenuItem sideMenuItem1;
     }
 }
 

@@ -30,7 +30,6 @@ namespace Guia_De_Estudos.View.Cadastro
         private void InitializeComponent()
         {
             this.MenuPanelLeft = new System.Windows.Forms.Panel();
-            this.panelSubItem1 = new Temas.PanelSubItem();
             this.label2 = new System.Windows.Forms.Label();
             this.SidePanelItem = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,20 +43,15 @@ namespace Guia_De_Estudos.View.Cadastro
             this.txtNomeProjeto = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.MenuPanelTop = new System.Windows.Forms.Panel();
-            this.panelSubItem3 = new Temas.PanelSubItem();
-            this.panelSubItem2 = new Temas.PanelSubItem();
             this.label5 = new System.Windows.Forms.Label();
             this.MenuPanelLeft.SuspendLayout();
-            this.panelSubItem1.SuspendLayout();
             this.SidePanelItem.SuspendLayout();
             this.GroupPanelDificuldade.SuspendLayout();
             this.MenuPanelTop.SuspendLayout();
-            this.panelSubItem2.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuPanelLeft
             // 
-            this.MenuPanelLeft.Controls.Add(this.panelSubItem1);
             this.MenuPanelLeft.Controls.Add(this.SidePanelItem);
             this.MenuPanelLeft.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.MenuPanelLeft.Location = new System.Drawing.Point(0, 0);
@@ -66,13 +60,6 @@ namespace Guia_De_Estudos.View.Cadastro
             this.MenuPanelLeft.TabIndex = 16;
             // 
             // panelSubItem1
-            // 
-            this.panelSubItem1.Controls.Add(this.label2);
-            this.panelSubItem1.Location = new System.Drawing.Point(0, 49);
-            this.panelSubItem1.Name = "panelSubItem1";
-            this.panelSubItem1.Size = new System.Drawing.Size(200, 39);
-            this.panelSubItem1.TabIndex = 2;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -196,31 +183,11 @@ namespace Guia_De_Estudos.View.Cadastro
             // 
             // MenuPanelTop
             // 
-            this.MenuPanelTop.Controls.Add(this.panelSubItem3);
-            this.MenuPanelTop.Controls.Add(this.panelSubItem2);
             this.MenuPanelTop.Location = new System.Drawing.Point(201, 0);
             this.MenuPanelTop.Name = "MenuPanelTop";
             this.MenuPanelTop.Size = new System.Drawing.Size(682, 40);
             this.MenuPanelTop.TabIndex = 17;
             // 
-            // panelSubItem3
-            // 
-            this.panelSubItem3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSubItem3.Location = new System.Drawing.Point(114, 0);
-            this.panelSubItem3.Name = "panelSubItem3";
-            this.panelSubItem3.Size = new System.Drawing.Size(103, 40);
-            this.panelSubItem3.TabIndex = 1;
-            // 
-            // panelSubItem2
-            // 
-            this.panelSubItem2.Controls.Add(this.label5);
-            this.panelSubItem2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSubItem2.Location = new System.Drawing.Point(0, 0);
-            this.panelSubItem2.Name = "panelSubItem2";
-            this.panelSubItem2.Size = new System.Drawing.Size(114, 40);
-            this.panelSubItem2.TabIndex = 0;
-            // 
-            // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -247,15 +214,11 @@ namespace Guia_De_Estudos.View.Cadastro
             this.Text = "cadastrar";
             this.Load += new System.EventHandler(this.cadastrar_Load);
             this.MenuPanelLeft.ResumeLayout(false);
-            this.panelSubItem1.ResumeLayout(false);
-            this.panelSubItem1.PerformLayout();
             this.SidePanelItem.ResumeLayout(false);
             this.SidePanelItem.PerformLayout();
             this.GroupPanelDificuldade.ResumeLayout(false);
             this.GroupPanelDificuldade.PerformLayout();
             this.MenuPanelTop.ResumeLayout(false);
-            this.panelSubItem2.ResumeLayout(false);
-            this.panelSubItem2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,7 +227,6 @@ namespace Guia_De_Estudos.View.Cadastro
         #endregion
 
         private System.Windows.Forms.Panel MenuPanelLeft;
-        private Temas.PanelSubItem panelSubItem1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel SidePanelItem;
         private System.Windows.Forms.Label label3;
@@ -278,8 +240,6 @@ namespace Guia_De_Estudos.View.Cadastro
         private System.Windows.Forms.TextBox txtNomeProjeto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel MenuPanelTop;
-        private Temas.PanelSubItem panelSubItem3;
-        private Temas.PanelSubItem panelSubItem2;
         private System.Windows.Forms.Label label5;
     }
 }

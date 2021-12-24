@@ -25,3 +25,30 @@ C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\bin\Debug\net5.0-windo
 C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.CopyComplete
 C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.Properties.Resources.resources
 C:\Users\PC1\source\repos\Guia De Estudos\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.View.Cadastro.cadastrar.resources
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.dll
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\ref\Guia De Estudos.dll
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.pdb
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.Properties.Resources.resources
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.View.Cadastro.cadastrar.resources
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.Form1.resources
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.AssemblyInfo.cs
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.exe
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.deps.json
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.runtimeconfig.json
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.dll
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\ref\Guia De Estudos.dll
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Guia De Estudos.pdb
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.genruntimeconfig.cache
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Temas.deps.json
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Temas.runtimeconfig.json
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Temas.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Temas.exe
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Temas.dll
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Temas.pdb
+C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.CopyComplete
