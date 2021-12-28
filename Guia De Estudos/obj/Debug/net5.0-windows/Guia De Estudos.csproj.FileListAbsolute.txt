@@ -31,7 +31,6 @@ C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\n
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.AssemblyReference.cache
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.Properties.Resources.resources
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.View.Cadastro.cadastrar.resources
-C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.Form1.resources
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.GenerateResource.cache
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.AssemblyInfoInputs.cache
@@ -52,3 +51,4 @@ C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\n
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Temas.dll
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\bin\Debug\net5.0-windows\Temas.pdb
 C:\Users\User\Source\Repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia De Estudos.csproj.CopyComplete
+C:\Users\User\source\repos\Auxiliador-do-programador\Guia De Estudos\obj\Debug\net5.0-windows\Guia_De_Estudos.PaginaMDI.resources

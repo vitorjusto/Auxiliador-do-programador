@@ -1,19 +1,17 @@
 ﻿
-using Temas;
-
 namespace Guia_De_Estudos
 {
-    partial class Form1
+    partial class PaginaMDI
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Variável de designer necessária.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Limpar os recursos que estão sendo usados.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -23,11 +21,11 @@ namespace Guia_De_Estudos
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Código gerado pelo Windows Form Designer
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Método necessário para suporte ao Designer - não modifique 
+        /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent()
         {
@@ -35,7 +33,7 @@ namespace Guia_De_Estudos
             this.sideMenuItem1 = new Temas.SideMenuItem();
             this.SidePanelItem = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.MenuPanel.SuspendLayout();
             this.SidePanelItem.SuspendLayout();
             this.SuspendLayout();
@@ -45,19 +43,22 @@ namespace Guia_De_Estudos
             this.MenuPanel.Controls.Add(this.sideMenuItem1);
             this.MenuPanel.Controls.Add(this.SidePanelItem);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuPanel.Location = new System.Drawing.Point(0, 0);
+            this.MenuPanel.Location = new System.Drawing.Point(0, 28);
             this.MenuPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(214, 953);
-            this.MenuPanel.TabIndex = 1;
+            this.MenuPanel.Size = new System.Drawing.Size(250, 750);
+            this.MenuPanel.TabIndex = 4;
             // 
             // sideMenuItem1
             // 
             this.sideMenuItem1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.sideMenuItem1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.sideMenuItem1.Location = new System.Drawing.Point(0, 67);
             this.sideMenuItem1.Name = "sideMenuItem1";
-            this.sideMenuItem1.Size = new System.Drawing.Size(214, 65);
+            this.sideMenuItem1.Size = new System.Drawing.Size(250, 65);
             this.sideMenuItem1.TabIndex = 2;
+            this.sideMenuItem1.TextItem = "Projeto";
+            this.sideMenuItem1.Click += new System.EventHandler(this.sideMenuItem1_Click);
             // 
             // SidePanelItem
             // 
@@ -66,7 +67,7 @@ namespace Guia_De_Estudos
             this.SidePanelItem.Location = new System.Drawing.Point(0, 0);
             this.SidePanelItem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.SidePanelItem.Name = "SidePanelItem";
-            this.SidePanelItem.Size = new System.Drawing.Size(214, 67);
+            this.SidePanelItem.Size = new System.Drawing.Size(250, 67);
             this.SidePanelItem.TabIndex = 0;
             // 
             // label1
@@ -79,41 +80,44 @@ namespace Guia_De_Estudos
             this.label1.TabIndex = 0;
             this.label1.Text = "Novo";
             // 
-            // label2
+            // menuStrip1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(12, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 17);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Projeto";
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1178, 28);
+            this.menuStrip1.TabIndex = 6;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // Form1
+            // PaginaMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1482, 953);
+            this.ClientSize = new System.Drawing.Size(1178, 778);
             this.Controls.Add(this.MenuPanel);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tela Inicial";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "PaginaMDI";
+            this.Text = "PaginaMDI";
+            this.Load += new System.EventHandler(this.PaginaMDI_Load);
             this.MenuPanel.ResumeLayout(false);
             this.SidePanelItem.ResumeLayout(false);
             this.SidePanelItem.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
-
         #endregion
 
         private System.Windows.Forms.Panel MenuPanel;
+        private Temas.SideMenuItem sideMenuItem1;
         private System.Windows.Forms.Panel SidePanelItem;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private SideMenuItem sideMenuItem1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }
+
+
 

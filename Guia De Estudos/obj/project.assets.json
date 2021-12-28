@@ -37,11 +37,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Auxiliador-do-programador\\Guia De Estudos\\Guia De Estudos.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Auxiliador-do-programador\\Guia De Estudos\\Guia De Estudos.csproj",
       "projectName": "Guia De Estudos",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\Auxiliador-do-programador\\Guia De Estudos\\Guia De Estudos.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Auxiliador-do-programador\\Guia De Estudos\\Guia De Estudos.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\Auxiliador-do-programador\\Guia De Estudos\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Auxiliador-do-programador\\Guia De Estudos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,8 +64,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\temas\\Temas.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\temas\\Temas.csproj"
+            "C:\\Users\\User\\source\\repos\\temas\\Temas.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\temas\\Temas.csproj"
             }
           }
         }
