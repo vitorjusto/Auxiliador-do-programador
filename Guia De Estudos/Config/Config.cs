@@ -20,12 +20,20 @@ namespace Guia_De_Estudos.Config
                 foreach (Enum valor in enumValores)
                 {
                     
-                    lista.Add(Enum.GetName(tipo, Enum.GetValues(tipo).GetValue(index)));
+                    lista.Add(valor.ObterAtributoDoTipo<DescriptionAttribute>().Description);
                     index++;
                 }
             }
 
             return lista;
+        }
+
+        public static T ObterAtributoDoTipo<T>(this Enum valorEnum) where T : System.Attribute
+        {
+            var type = valorEnum.GetType();
+            var memInfo = type.GetMember(valorEnum.ToString());
+            var attributes = memInfo[0].GetCustomAttributes(typeof(T), false);
+            return (attributes.Length > 0) ? (T)attributes[0] : null;
         }
 
     }

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Guia De Estudos",
+    "\\Guia De Estudos\\Config"
   ],
-  "SelectedNode": "\\Guia De Estudos.sln",
+  "SelectedNode": "\\Guia De Estudos\\Config\\Config.cs",
   "PreviewInSolutionExplorer": false
 }

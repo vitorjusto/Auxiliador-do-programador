@@ -48,17 +48,18 @@ namespace Guia_De_Estudos
             this.MenuPanel.Name = "MenuPanel";
             this.MenuPanel.Size = new System.Drawing.Size(250, 754);
             this.MenuPanel.TabIndex = 4;
-            this.MenuPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuPanel_Paint);
             // 
             // sideMenuItem1
             // 
             this.sideMenuItem1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.sideMenuItem1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.sideMenuItem1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.sideMenuItem1.Location = new System.Drawing.Point(0, 67);
             this.sideMenuItem1.Name = "sideMenuItem1";
-            this.sideMenuItem1.Size = new System.Drawing.Size(250, 65);
-            this.sideMenuItem1.TabIndex = 2;
-            this.sideMenuItem1.Click += new System.EventHandler(this.sideMenuItem1_Click);
+            this.sideMenuItem1.Size = new System.Drawing.Size(250, 67);
+            this.sideMenuItem1.TabIndex = 1;
+            this.sideMenuItem1.TextItem = "Projeto";
+            this.sideMenuItem1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.sideMenuItem1_MouseClick);
+            this.sideMenuItem1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.sideMenuItem1_MouseClick);
             // 
             // SidePanelItem
             // 
@@ -101,6 +102,7 @@ namespace Guia_De_Estudos
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "PaginaMDI";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PaginaMDI";
             this.Load += new System.EventHandler(this.PaginaMDI_Load);
             this.MenuPanel.ResumeLayout(false);
@@ -113,10 +115,10 @@ namespace Guia_De_Estudos
         #endregion
 
         private System.Windows.Forms.Panel MenuPanel;
-        private Temas.SideMenuItem sideMenuItem1;
         private System.Windows.Forms.Panel SidePanelItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private Temas.SideMenuItem sideMenuItem1;
     }
 }
 

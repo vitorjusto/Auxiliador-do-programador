@@ -21,7 +21,14 @@ namespace Guia_De_Estudos
             InitializeComponent();
         }
 
-        private void sideMenuItem1_Click(object sender, EventArgs e)
+        private void PaginaMDI_Load(object sender, EventArgs e)
+        {
+            Tema.AtribuirTema(this);
+            menuStrip1.Visible = false;
+
+        }
+
+        private void sideMenuItem1_MouseClick(object sender, MouseEventArgs e)
         {
             if (!(TelaAtual is null))
                 TelaAtual.Close();
@@ -30,17 +37,6 @@ namespace Guia_De_Estudos
             TelaAtual.MdiParent = this;
             TelaAtual.Show();
         }
-
-        private void PaginaMDI_Load(object sender, EventArgs e)
-        {
-            Tema.AtribuirTema(this);
-            menuStrip1.Visible = false;
-
-        }
-
-        private void MenuPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
-}
+    }
+
