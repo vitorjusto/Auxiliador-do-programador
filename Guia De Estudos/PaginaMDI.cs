@@ -14,7 +14,6 @@ namespace Guia_De_Estudos
 {
     public partial class PaginaMDI : Form
     {
-        private int childFormNumber = 0;
 
        public Form TelaAtual { get; set; }
         public PaginaMDI()
@@ -35,7 +34,13 @@ namespace Guia_De_Estudos
         private void PaginaMDI_Load(object sender, EventArgs e)
         {
             Tema.AtribuirTema(this);
+            menuStrip1.Visible = false;
+
         }
 
+        private void MenuPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

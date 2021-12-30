@@ -43,11 +43,12 @@ namespace Guia_De_Estudos
             this.MenuPanel.Controls.Add(this.sideMenuItem1);
             this.MenuPanel.Controls.Add(this.SidePanelItem);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuPanel.Location = new System.Drawing.Point(0, 28);
+            this.MenuPanel.Location = new System.Drawing.Point(0, 24);
             this.MenuPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(250, 750);
+            this.MenuPanel.Size = new System.Drawing.Size(250, 754);
             this.MenuPanel.TabIndex = 4;
+            this.MenuPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuPanel_Paint);
             // 
             // sideMenuItem1
             // 
@@ -57,7 +58,6 @@ namespace Guia_De_Estudos
             this.sideMenuItem1.Name = "sideMenuItem1";
             this.sideMenuItem1.Size = new System.Drawing.Size(250, 65);
             this.sideMenuItem1.TabIndex = 2;
-            this.sideMenuItem1.TextItem = "Projeto";
             this.sideMenuItem1.Click += new System.EventHandler(this.sideMenuItem1_Click);
             // 
             // SidePanelItem
@@ -85,17 +85,18 @@ namespace Guia_De_Estudos
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1178, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1178, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // PaginaMDI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1178, 778);
             this.Controls.Add(this.MenuPanel);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7931ce40-a557-4666-aba0-03d7065b3368": {
+      "ProjectGuid": "7931ce40-a557-4666-aba0-03d7065b3368",
+      "DisplayName": "Guia De Estudos",
+      "ColorIndex": 0
+    },
+    "91322148-87d9-4ef8-a851-4cadbb196a43": {
+      "ProjectGuid": "91322148-87d9-4ef8-a851-4cadbb196a43",
+      "DisplayName": "Temas",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

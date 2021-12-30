@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v5.0": {
       "Guia De Estudos/1.0.0": {
         "dependencies": {
+          "Enums.NET": "4.0.0",
           "Temas": "1.0.0"
         },
         "runtime": {
           "Guia De Estudos.dll": {}
+        }
+      },
+      "Enums.NET/4.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Enums.NET.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
         }
       },
       "Temas/1.0.0": {
@@ -26,6 +35,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Enums.NET/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d47SgeuGxKpalKhYoHqFkDPmO9SoE3amSwVNDoUdy4d675/tX7bLyZFHdjfo3Tobth9Y80VnjfasQ/PD4LqUuA==",
+      "path": "enums.net/4.0.0",
+      "hashPath": "enums.net.4.0.0.nupkg.sha512"
     },
     "Temas/1.0.0": {
       "type": "project",

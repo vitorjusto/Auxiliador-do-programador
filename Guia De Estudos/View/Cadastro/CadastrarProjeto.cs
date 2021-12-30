@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Guia_De_Estudos.Config;
+using Guia_De_Estudos.Model.Enums;
+using System;
 using System.Windows.Forms;
 using Temas;
 
@@ -14,11 +16,13 @@ namespace Guia_De_Estudos.View.Cadastro
         private void cadastrar_Load(object sender, EventArgs e)
         {
             Tema.AtribuirTema(this);
+            this.HorizontalScroll.Maximum = 0;
+            this.AutoScroll = false;
+            this.VerticalScroll.Visible = false;
+            this.AutoScroll = true;
+
+            cbPrioridade.DataSource = Global.Listar(typeof(Prioridade));
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

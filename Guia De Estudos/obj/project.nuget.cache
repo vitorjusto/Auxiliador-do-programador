@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Kwz/uaj4dW6OLLFb8HbSw7Wxa66gcBHUMoJxUQcgpxyf2Ok3fpRC9IuLsw5Re9RR7inqY+UJT1bSBks7ga2Ggw==",
+  "dgSpecHash": "w148HdAu94h/YOCHKQp1nP4XDfnU159mMQQVY+QJZZB9Pvx/do+0M4SzBR+21OibZSmHZ9D4DtnuUOZGq0Y8oA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\Auxiliador-do-programador\\Guia De Estudos\\Guia De Estudos.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vitor\\source\\repos\\Auxiliador-do-programador\\Guia De Estudos\\Guia De Estudos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitor\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

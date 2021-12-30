@@ -41,6 +41,8 @@ namespace Guia_De_Estudos.View.Cadastro
             this.rbMedio = new System.Windows.Forms.RadioButton();
             this.txtNomeProjeto = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbPrioridade = new System.Windows.Forms.ComboBox();
             this.GroupPanelDificuldade.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,14 +71,14 @@ namespace Guia_De_Estudos.View.Cadastro
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(1250, 66);
+            this.MenuPanel.Size = new System.Drawing.Size(905, 107);
             this.MenuPanel.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(180, 106);
+            this.label1.Location = new System.Drawing.Point(64, 199);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(188, 28);
             this.label1.TabIndex = 17;
@@ -86,7 +88,7 @@ namespace Guia_De_Estudos.View.Cadastro
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(492, 118);
+            this.label4.Location = new System.Drawing.Point(511, 199);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(209, 28);
             this.label4.TabIndex = 19;
@@ -96,7 +98,7 @@ namespace Guia_De_Estudos.View.Cadastro
             // 
             this.dtpDataDeEntrega.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtpDataDeEntrega.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDataDeEntrega.Location = new System.Drawing.Point(180, 276);
+            this.dtpDataDeEntrega.Location = new System.Drawing.Point(64, 369);
             this.dtpDataDeEntrega.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dtpDataDeEntrega.Name = "dtpDataDeEntrega";
             this.dtpDataDeEntrega.Size = new System.Drawing.Size(243, 27);
@@ -107,10 +109,10 @@ namespace Guia_De_Estudos.View.Cadastro
             this.GroupPanelDificuldade.Controls.Add(this.rbFacil);
             this.GroupPanelDificuldade.Controls.Add(this.rbDificil);
             this.GroupPanelDificuldade.Controls.Add(this.rbMedio);
-            this.GroupPanelDificuldade.Location = new System.Drawing.Point(492, 150);
+            this.GroupPanelDificuldade.Location = new System.Drawing.Point(511, 243);
             this.GroupPanelDificuldade.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GroupPanelDificuldade.Name = "GroupPanelDificuldade";
-            this.GroupPanelDificuldade.Size = new System.Drawing.Size(201, 151);
+            this.GroupPanelDificuldade.Size = new System.Drawing.Size(213, 153);
             this.GroupPanelDificuldade.TabIndex = 22;
             // 
             // rbFacil
@@ -155,7 +157,7 @@ namespace Guia_De_Estudos.View.Cadastro
             // txtNomeProjeto
             // 
             this.txtNomeProjeto.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNomeProjeto.Location = new System.Drawing.Point(180, 150);
+            this.txtNomeProjeto.Location = new System.Drawing.Point(64, 243);
             this.txtNomeProjeto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNomeProjeto.Name = "txtNomeProjeto";
             this.txtNomeProjeto.Size = new System.Drawing.Size(243, 32);
@@ -165,33 +167,54 @@ namespace Guia_De_Estudos.View.Cadastro
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(180, 238);
+            this.label6.Location = new System.Drawing.Point(64, 331);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(224, 28);
             this.label6.TabIndex = 21;
             this.label6.Text = "Estimativa de Entrega:";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(64, 475);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(110, 28);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Prioridade";
+            // 
+            // cbPrioridade
+            // 
+            this.cbPrioridade.FormattingEnabled = true;
+            this.cbPrioridade.Location = new System.Drawing.Point(64, 518);
+            this.cbPrioridade.Name = "cbPrioridade";
+            this.cbPrioridade.Size = new System.Drawing.Size(243, 28);
+            this.cbPrioridade.TabIndex = 24;
+            // 
             // cadastrar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1250, 900);
+            this.ClientSize = new System.Drawing.Size(905, 944);
             this.ControlBox = false;
+            this.Controls.Add(this.cbPrioridade);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.dtpDataDeEntrega);
-            this.Controls.Add(this.GroupPanelDificuldade);
-            this.Controls.Add(this.txtNomeProjeto);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.MenuPanel);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtNomeProjeto);
+            this.Controls.Add(this.GroupPanelDificuldade);
+            this.Controls.Add(this.dtpDataDeEntrega);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "cadastrar";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "cadastrar";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.cadastrar_Load);
@@ -215,5 +238,7 @@ namespace Guia_De_Estudos.View.Cadastro
         private System.Windows.Forms.RadioButton rbMedio;
         private System.Windows.Forms.TextBox txtNomeProjeto;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cbPrioridade;
     }
 }
